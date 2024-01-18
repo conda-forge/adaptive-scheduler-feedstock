@@ -10,7 +10,7 @@ source:
   sha256: ef469623f08bfe39ce9c58d7278161dc22859fb2dd3212799eaf3f33dea928c9
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -42,8 +42,6 @@ requirements:
     - toolz
     - tqdm
     - versioningit
-    - mpi4py
-    - mpich
 
 test:
   imports:
@@ -56,7 +54,7 @@ about:
   license_file: LICENSE
   summary: An asynchronous scheduler for Adaptive
   description: |
-    The Adaptive scheduler solves the following problem, you need to run a few 100 
+    The Adaptive scheduler solves the following problem, you need to run a few 100
     learners and can use >1k cores. `ipyparallel` and `dask.distributed` provide 
     very powerful engines for interactive sessions. However, when you want to 
     connect to >1k cores it starts to struggle. Besides that, on a shared cluster 
