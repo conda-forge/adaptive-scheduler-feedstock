@@ -1,5 +1,5 @@
 {% set name = "adaptive-scheduler" %}
-{% set version = "2.8.0" %}
+{% set version = "2.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive_scheduler-{{ version }}.tar.gz
-  sha256: 4d96480cc1a9d4b76664f0af328421214479048802e57d1fa682b570e05aaaf7
+  sha256: 5d8d2b9114b06478e02d4f56d82e610b4a3ed772eeddd5703deaef47ff05e1ce
 
 build:
   number: 0
