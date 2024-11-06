@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive_scheduler-{{ version }}.tar.gz
-  sha256: 8893ee234fdd5a90ce67090eb099c8294f5f1a7c7c5bcc0b654f3d7d22c7e74
+  sha256: 8893ee234fdd5a90ce67090eb099c8294f5f1a7c7c5bcc0b654f3d7d22c7e747
 
 build:
   number: 0
