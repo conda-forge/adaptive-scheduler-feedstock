@@ -11,7 +11,7 @@ Summary: An asynchronous scheduler for Adaptive
 
 Development: https://github.com/basnijholt/adaptive-scheduler
 
-Documentation: http://adaptive-scheduler.readthedocs.io
+Documentation: http://adaptive-scheduler.readthedocs.io/
 
 The Adaptive scheduler solves the following problem, you need to run a few 100
 learners and can use >1k cores. `ipyparallel` and `dask.distributed` provide
@@ -30,7 +30,6 @@ problem and it will automatically schedule a new one and continue the
 calculation where it left off (because of Adaptive's periodic saving
 functionality). Even if the central "job manager" dies, the jobs will continue
 to run (although no new jobs will be scheduled.)
-
 
 Current build status
 ====================
