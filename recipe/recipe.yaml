@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: adaptive-scheduler
-  version: "2.14.3"
+  version: "2.14.4"
   python_min: '3.10'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/adaptive_scheduler-${{ version }}.tar.gz
-  sha256: 04ad628ea4131f80dd2b928be3a022bf5026aece38457cc3bde611b17e847b65
+  sha256: 10e07794ccdbdaa60c0a7f2f28b865e1a5cf4cb3d65ffb94011396d555753562
 
 build:
   number: 0
